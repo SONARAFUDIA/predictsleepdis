@@ -72,21 +72,21 @@ prediction = rf.predict(user_data)[0]
 st.subheader("Hasil Prediksi:")
 if prediction == 1:
     st.error("Anda Mungkin Mengalami Gangguan Tidur!")
-    st.markdown("""
-    ### Rekomendasi:
-    - Konsultasikan dengan dokter atau ahli tidur.
-    - Terapkan rutinitas tidur yang konsisten.
-    - Hindari penggunaan gawai 1 jam sebelum tidur.
-    - Kurangi konsumsi kafein dan alkohol.
-    - Perhatikan kondisi kamar tidur: gelap, sejuk, dan tenang.
-    """)
+    # st.markdown("""
+    # ### Rekomendasi:
+    # - Konsultasikan dengan dokter atau ahli tidur.
+    # - Terapkan rutinitas tidur yang konsisten.
+    # - Hindari penggunaan gawai 1 jam sebelum tidur.
+    # - Kurangi konsumsi kafein dan alkohol.
+    # - Perhatikan kondisi kamar tidur: gelap, sejuk, dan tenang.
+    # """)
 else:
     st.success("Tidur Anda Normal.")
-    st.markdown("""
-    ### Tips Menjaga Kualitas Tidur:
-    - Pertahankan jadwal tidur yang konsisten.
-    - Olahraga secara teratur.
-    - Hindari makan berat sebelum tidur.
-    - Ciptakan suasana tidur yang nyaman.
-    """)
+    # st.markdown("""
+    # ### Tips Menjaga Kualitas Tidur:
+    # - Pertahankan jadwal tidur yang konsisten.
+    # - Olahraga secara teratur.
+    # - Hindari makan berat sebelum tidur.
+    # - Ciptakan suasana tidur yang nyaman.
+    # """)
 
